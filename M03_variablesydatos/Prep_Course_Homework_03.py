@@ -6,6 +6,8 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
+a = 12
+print(a)
 
 
 
@@ -13,7 +15,7 @@
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+print(type(8.5))
 
 
 
@@ -22,13 +24,14 @@
 
 # In[8]:
 
-
+print(type(a))
 
 
 
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
+nombre'Florencia'
 
 
 
@@ -37,7 +40,7 @@
 
 # In[3]:
 
-
+complejo=4+5j
 
 
 
@@ -46,7 +49,7 @@
 # In[4]:
 
 
-
+print(type(complejo))
 
 
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
@@ -61,15 +64,16 @@ pi = 3.1416
 
 # In[3]:
 
-
-
+var1='True' #esta variable es de tipo string 
+var2=True   # esta variable es boleana
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
-
+Print(type(var1))
+Print(type(var2)
 
 
 
