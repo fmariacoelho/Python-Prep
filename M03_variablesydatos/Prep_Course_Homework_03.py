@@ -7,22 +7,20 @@
 
 # In[7]:
 
-
+a=25
+print(a)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
-
+print(type(8.5))
 # In[3]:
-
-
-
 
 
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
 
-
+print(type(a))
 
 
 
@@ -30,14 +28,14 @@
 
 # In[2]:
 
-
+nombre='Florencia'
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
 
-
+complejo=4+3j
 
 
 
@@ -45,7 +43,7 @@
 
 # In[4]:
 
-
+print(type(complejo))
 
 
 
@@ -62,14 +60,16 @@ pi = 3.1416
 # In[3]:
 
 
-
+var1='True'  #esta es una variable de tipo texto
+var2=True    #esta es una variable boleana
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
-
+print(type(var1))
+print(type(var2))
 
 
 
@@ -78,14 +78,17 @@ pi = 3.1416
 # In[1]:
 
 
-
+e=33
+d=3.33
+suma=e+d
 
 
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
 
-
+suma=3+4j + 3+5j
+print(suma)
 
 
 
@@ -93,6 +96,10 @@ pi = 3.1416
 
 # In[4]:
 
+real=20.5
+complejo=3+4j
+suma= real + complejo
+print(suma)
 
 
 
@@ -102,7 +109,8 @@ pi = 3.1416
 # In[5]:
 
 
-
+producto= 3*5
+print(producto)
 
 
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
@@ -110,13 +118,15 @@ pi = 3.1416
 # In[6]:
 
 
-
+potencia=2**8
+print(potencia)
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
+cociente=27/4
+print(int(cociente))
 
 
 
@@ -125,14 +135,15 @@ pi = 3.1416
 # In[9]:
 
 
-
+cociente=27/4
+print(int(cociente))
 
 
 # 17) De la división de 27 entre 4 mostrar solamente el resto
 
 # In[1]:
 
-
+print(27%4)
 
 
 
@@ -140,7 +151,8 @@ pi = 3.1416
 
 # In[2]:
 
-
+cociente=27/4
+print(int(cociente)*4+(27%4))
 
 
 
@@ -148,7 +160,9 @@ pi = 3.1416
 
 # In[3]:
 
-
+nombre='Florencia'
+segundo='Maria'
+print(nombre+' '+segundo)
 
 
 
@@ -156,7 +170,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+2=='2'    #dos tipos de variales distintas entera y string
 
 
 
@@ -164,7 +178,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+2== int('2')
 
 
 
@@ -173,14 +187,16 @@ pi = 3.1416
 # In[12]:
 
 
-
+a=float('3.8')  #decimal no es ,
 
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
 
 # In[15]:
 
-
+var=3
+var-=1
+print(var)
 
 
 
@@ -192,11 +208,12 @@ pi = 3.1416
 
 
 
+
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
 
-
+2+int('2') # son de distinto tipo
 
 
 
@@ -205,5 +222,6 @@ pi = 3.1416
 
 # In[30]:
 
+print(2+int('2'))
 
 
